@@ -23,3 +23,17 @@
 .toa-copy .text-link{margin-top:19px;color:var(--burgundy)}
 @media(max-width:900px){.toa-layout{grid-template-columns:1fr}.toa-copy{grid-row:1}.toa-photos{grid-row:2;min-height:0;max-width:700px;margin-top:16px}.toa-photo-main{height:520px}}
 @media(max-width:600px){.toa-copy h2{font-size:clamp(3.25rem,12vw,5rem)}.toa-photos{padding-right:11%;padding-bottom:15%}.toa-photo-main{height:390px}.toa-photo-group{width:49%;height:180px;border-width:6px}.toa-photos figcaption{font-size:.62rem;padding:8px 10px}.toa-photo-group figcaption{font-size:.56rem}}
+
+/* Community service feature */
+.service{background:var(--gold)}
+.service-layout{display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:clamp(40px,7vw,110px)}
+.service-copy .section-index{color:var(--burgundy)}
+.service-copy h2{font-size:clamp(3.3rem,5.8vw,6rem);margin:24px 0 32px}
+.service-copy h2 em{color:var(--burgundy)}
+.service-copy p{font-size:1.08rem;line-height:1.72;max-width:520px;margin-bottom:19px}
+.service-copy .text-link{margin-top:20px}
+.service-photo{position:relative;background:#b7d09e;padding:12px;box-shadow:0 24px 55px rgba(76,51,14,.17)}
+.service-photo img{width:100%;aspect-ratio:1;object-fit:cover}
+.service-photo figcaption{position:absolute;bottom:12px;right:12px;padding:10px 14px;background:var(--green-dark);color:white;font-size:.75rem;font-weight:700;letter-spacing:.04em}
+@media(max-width:900px){.service-layout{grid-template-columns:1fr}.service-photo{max-width:650px}}
+@media(max-width:600px){.service-copy h2{font-size:clamp(3.2rem,12vw,5rem)}.service-photo{padding:7px}.service-photo figcaption{bottom:7px;right:7px;font-size:.65rem}}
