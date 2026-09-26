@@ -1,6 +1,6 @@
 # GTEESA landing page
 
-A static, responsive landing page for the Georgia Tech Eritrean Ethiopian Student Association.
+A static, responsive landing page for the Georgia Tech Eritrean-Ethiopian Student Association (GTEESA).
 
 ## Preview
 
